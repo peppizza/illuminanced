@@ -1,11 +1,10 @@
 [package]
 name = "illuminanced"
-version = "0.1.0"
-authors = ["Mikhail Modin <mikhailm1@gmail.com>"]
+version = "1.0.0"
+authors = ["Mikhail Modin <mikhailm1@gmail.com>", "Spencer Vess <spencervess@protonmail.com>"]
 
 [dependencies]
 daemonize = "0.5"
-#daemonize = { path = "../daemonize" }
 syslog = "6.1"
 log = "0.4"
 simplelog ="0.12"
